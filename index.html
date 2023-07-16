@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Animal Sound Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+<body>
+  <div class="col-xs-12 header_div text_center">
+    <h3 id="test1">Sound Controlled Animals</h4>
+    <h5 id="test">Note: make differnet sounds like lion roaring, dog barking, cat meowing and cow mooing to make the animal appear.</h5>
+  </div><br>
+    </div>
+    <div class="main_div">
+    <center>
+      
+        <button class="btn btn-warning" id="startButton" onclick="start()">Start</button><br>
+        <h3 id="result"></h3><br>
+        <h3 id="confidence"></h3><br><br><br>
+        <img style="width:700;height:800;"id="mainImg" src="ear.png">
+        
+    </center>
+  </div>
+    <div class="copy_right_footer">
+      Developed by: Varsha Sivakumar
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
